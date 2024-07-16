@@ -33,3 +33,8 @@ class vehicle:
             raise ValueError(f"weight ({weight}) should not exceed current load ({self.current_load}).")
         self.current_load -= weight
         return self.current_load
+
+
+vehicle1 = vehicle(licence_plate="34abc42", capacity=5_000)
+vehicle2 = vehicle("06def49", 2_500)
+vehicle3 = vehicle(capacity=8_000, licence_plate="07mn108")
