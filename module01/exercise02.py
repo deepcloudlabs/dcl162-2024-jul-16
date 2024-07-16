@@ -31,7 +31,7 @@ class OverCapacityError(Exception):
         return f'OverCapacityError [{self.message}]: {self.over_weight}'
 
 
-class vehicle:
+class vehicle(object):
     """
         members:
         1. attributes         -> licence_plate, capacity, load

@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 
 # interface
-class pet(ABC):
+class pet(ABC): # interface
     @abstractmethod
     def play(self) -> None:
         pass
