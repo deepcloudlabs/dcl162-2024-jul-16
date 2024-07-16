@@ -27,11 +27,11 @@ class vehicle:
         return self.__licence_plate
 
     @property
-    def capacity(self) -> str:
+    def capacity(self) -> float:
         return self.__capacity
 
     @property
-    def current_load(self) -> str:
+    def current_load(self) -> float:
         return self.__current_load
 
     @property  # getter
