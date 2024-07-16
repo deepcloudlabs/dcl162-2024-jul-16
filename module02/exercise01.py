@@ -22,4 +22,5 @@ print(f"Total population: {total_eu_population}")
 # declarative programming: functional programming, oop
 to_population = lambda country: country["population"]
 eu_country = lambda country: country["continent"] == "europe"
+# internal loop
 print(f"Total population: {sum(map(to_population, filter(eu_country, countries)))}")
