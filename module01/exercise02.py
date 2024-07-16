@@ -7,7 +7,8 @@ class Color(Enum):
     BLUE = 3
     WHITE = 4
     BLACK = 5
-    
+
+
 class vehicle:
     """
         members:
@@ -15,7 +16,7 @@ class vehicle:
         2. (business) methods -> load, unload, constructor (__init__) -> create object
     """
 
-    def __init__(self, licence_plate: str, capacity: float = 1_000, color: str = "red") -> None:
+    def __init__(self, licence_plate: str, capacity: float = 1_000, color: Color = Color.RED) -> None:
         self.__licence_plate = licence_plate
         self.__capacity = capacity
         self.__current_load = 0
@@ -34,13 +35,11 @@ class vehicle:
         return self.__current_load
 
     @property  # getter
-    def color(self) -> str:
+    def color(self) -> Color:
         return self.__color
 
     @color.setter  # setter
-    def color(self, new_color: str) -> None:
-        if len(new_color) == 0:
-            raise ValueError("color cannot be an empty string")
+    def color(self, new_color: Color) -> None:
         self.__color = new_color
 
     def load(self, weight: float) -> float:
@@ -78,6 +77,6 @@ vehicle1.load(weight=1_500)
 print(f"vehicle1's current load: {vehicle1.current_load}")
 vehicle1.load(weight=2_000)
 print(f"vehicle1's current load: {vehicle1.current_load}")
-vehicle1.color = "pink"
+vehicle1.color = Color.GREEN
 vehicle1.load(weight=1_500)
 print(f"vehicle1's current load: {vehicle1.current_load}")
