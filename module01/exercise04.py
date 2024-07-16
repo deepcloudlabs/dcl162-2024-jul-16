@@ -10,15 +10,16 @@ shape2d -> triangle
 shape2d -> shape3d -> cube
            shape3d -> sphere
 """
+import random
 
 
-class shape2d:
+class shape2d:  # interface
 
     def area(self):
         pass
 
 
-class shape3d(shape2d):
+class shape3d(shape2d):  # interface
 
     def volume(self):
         pass
@@ -47,6 +48,7 @@ class square(shape2d):
         return f"square({self.x}, {self.y}, {self.edge})"
 
     def area(self) -> float:
+        print("square::area")
         return self.__edge * self.__edge
 
 
@@ -77,15 +79,27 @@ class cube(shape3d):
         return f"cube({super().x}, {super().y}, {self.z}, {super().edge})"
 
     def area(self) -> float:
-        return 6.0 * super().area()  # delegate to square's area
-        # return 6.0 * super().edge * super().edge
+        print("cube::area")
+        return 6.0 * self.edge * self.edge
 
     def volume(self) -> float:
-        return super().edge ** 3
+        return self.edge ** 3
 
 
 shape1: shape2d = square(1, 2, 10)
 shape2: shape3d = cube(1, 2, 3, 4)
-print(shape1.area())
-print(shape2.area())
-print(shape2.volume())
+# print(shape1.area())
+# print(shape2.area())
+# print(shape2.volume())
+
+shape3: shape2d = None
+if random.randint(0, 1) == 0:
+    shape3 = square(1, 2, 4)
+else:
+    shape3 = cube(1, 2, 3, 4)
+print(type(shape3))
+print(shape3.area())
+shapes: list[shape2d] = [shape1, shape2, shape3]
+total_surface_area = 0
+for shape in shapes:
+    total_surface_area += shape.area() # polymorphism -> agility
