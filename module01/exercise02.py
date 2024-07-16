@@ -1,3 +1,13 @@
+from enum import Enum
+
+
+class Color(Enum):
+    RED = 1
+    GREEN = 2
+    BLUE = 3
+    WHITE = 4
+    BLACK = 5
+    
 class vehicle:
     """
         members:
@@ -5,10 +15,33 @@ class vehicle:
         2. (business) methods -> load, unload, constructor (__init__) -> create object
     """
 
-    def __init__(self, licence_plate: str, capacity: float = 1_000) -> None:
-        self.licence_plate = licence_plate
-        self.capacity = capacity
-        self.current_load = 0
+    def __init__(self, licence_plate: str, capacity: float = 1_000, color: str = "red") -> None:
+        self.__licence_plate = licence_plate
+        self.__capacity = capacity
+        self.__current_load = 0
+        self.__color = color
+
+    @property
+    def licence_plate(self) -> str:
+        return self.__licence_plate
+
+    @property
+    def capacity(self) -> str:
+        return self.__capacity
+
+    @property
+    def current_load(self) -> str:
+        return self.__current_load
+
+    @property  # getter
+    def color(self) -> str:
+        return self.__color
+
+    @color.setter  # setter
+    def color(self, new_color: str) -> None:
+        if len(new_color) == 0:
+            raise ValueError("color cannot be an empty string")
+        self.__color = new_color
 
     def load(self, weight: float) -> float:
         """
@@ -20,21 +53,31 @@ class vehicle:
         if weight <= 0:
             raise ValueError(f"weight ({weight}) must be a positive number.")
         # business rule
-        if self.current_load + weight > self.capacity:
-            raise ValueError(f"Current load ({self.current_load}) exceeds capacity ({weight}).")
-        self.current_load += weight
-        return self.current_load
+        if self.__current_load + weight > self.__capacity:
+            raise ValueError(f"Current load ({self.__current_load}) exceeds capacity ({self.__capacity}).")
+        self.__current_load += weight
+        return self.__current_load
 
     def unload(self, weight: float) -> float:
         # validation
         if weight <= 0:
             raise ValueError(f"weight ({weight}) must be a positive number.")
-        if weight > self.current_load:
-            raise ValueError(f"weight ({weight}) should not exceed current load ({self.current_load}).")
-        self.current_load -= weight
-        return self.current_load
+        if weight > self.__current_load:
+            raise ValueError(f"weight ({weight}) should not exceed current load ({self.__current_load}).")
+        self.__current_load -= weight
+        return self.__current_load
 
 
 vehicle1 = vehicle(licence_plate="34abc42", capacity=5_000)
 vehicle2 = vehicle("06def49", 2_500)
 vehicle3 = vehicle(capacity=8_000, licence_plate="07mn108")
+print(f"vehicle1's current load: {vehicle1.current_load}")
+vehicle1.load(weight=500)
+print(f"vehicle1's current load: {vehicle1.current_load}")
+vehicle1.load(weight=1_500)
+print(f"vehicle1's current load: {vehicle1.current_load}")
+vehicle1.load(weight=2_000)
+print(f"vehicle1's current load: {vehicle1.current_load}")
+vehicle1.color = "pink"
+vehicle1.load(weight=1_500)
+print(f"vehicle1's current load: {vehicle1.current_load}")
