@@ -100,6 +100,8 @@ try:
     vehicle1 = vehicle(licence_plate="34abc42", capacity=5_000)
     vehicle2 = vehicle("06def49", 2_500)
     vehicle3 = vehicle(capacity=8_000, licence_plate="07mn108")
+    vehicle2.load(1_000)
+    vehicle3.load(2_000)
     print(f"vehicle1's current load: {vehicle1.current_load}")
     vehicle1.load(weight=500)
     print(f"vehicle1's current load: {vehicle1.current_load}")
@@ -114,3 +116,9 @@ try:
     print(str(vehicle1))
 except OverCapacityError as oce:
     print(oce)
+except ValueError as ve:
+    print(ve)
+finally:
+    print(f"unload all loads from vehicle1: {vehicle1.unload(vehicle1.current_load)}")
+    print(f"unload all loads from vehicle2: {vehicle2.unload(vehicle2.current_load)}")
+    print(f"unload all loads from vehicle3: {vehicle3.unload(vehicle3.current_load)}")
