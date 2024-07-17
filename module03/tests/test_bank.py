@@ -37,13 +37,25 @@ def test_get_account_should_success(mocker):
     account6 = Account("tr6", 60_000, AccountStatus.ACTIVE)
     accounts1 = {
         "tr1": account1,
-        "tr2": account2
+        "tr2": account2,
+        "tr3": None,
+        "tr4": None,
+        "tr5": None,
+        "tr6": None
     }
     accounts2 = {
+        "tr1": None,
+        "tr2": None,
         "tr3": account3,
-        "tr4": account4
+        "tr4": account4,
+        "tr5": None,
+        "tr6": None
     }
     accounts3 = {
+        "tr1": None,
+        "tr2": None,
+        "tr3": None,
+        "tr4": None,
         "tr5": account5,
         "tr6": account6
     }
@@ -53,6 +65,7 @@ def test_get_account_should_success(mocker):
     mocker.patch.object(jack, "get_account", side_effect=lambda iban: accounts1[iban])
     mocker.patch.object(kate, "get_account", side_effect=lambda iban: accounts2[iban])
     mocker.patch.object(james, "get_account", side_effect=lambda iban: accounts3[iban])
-    found_account = bank.get_account("tr2")  # 2: call exercise method
+    found_account = bank.get_account("tr4")  # 2: call exercise method
     assert found_account is not None
-    assert found_account.iban == "tr2"
+    assert found_account.iban == "tr4"
+    assert found_account == account4
