@@ -26,13 +26,19 @@ def an_active_account() -> Account:
 
 
 def test_withdraw_with_zero_amount_should_raise_exception(an_active_account):
-    with pytest.raises(ValueError) as err:  # verification
+    with pytest.raises(ValueError) as err:  # 3. verification
         an_active_account.withdraw(0)  # 2. call exercise method
     # 4. teardown
 
 
 @pytest.mark.parametrize('amount', test_withdraw_failure_amount)
-def test_withdraw_with_over_balance_should_raise_exception(an_active_account,amount):
-    with pytest.raises(InsufficientBalanceError) as err:  # verification
+def test_withdraw_with_over_balance_should_raise_exception(an_active_account, amount):
+    with pytest.raises(InsufficientBalanceError) as err:  # 3. verification
         an_active_account.withdraw(amount)  # 2. call exercise method
     # 4. teardown
+
+
+def test_withdraw_all_balance_should_success(an_active_account):
+    an_active_account.withdraw(10_000)  # 2. call exercise method
+    assert an_active_account.balance == 0  # 3. verification
+    assert an_active_account.status == AccountStatus.ACTIVE
