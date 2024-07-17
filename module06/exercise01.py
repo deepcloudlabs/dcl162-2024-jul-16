@@ -5,7 +5,7 @@ i. multitasking
                                      Text, Data, Stack, Heap
             parent process -- fork --> child process
    b. thread  -> process Text, Data, Stack, Heap
-                      t1             Stack
+                      t1             S(1M)
                       t2             Stack
                       t3             Stack
                  context -> RAM

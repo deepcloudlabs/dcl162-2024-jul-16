@@ -1,6 +1,7 @@
 import time
+from concurrent.futures import ThreadPoolExecutor
 
-import grequests
+import requests
 
 symbols = ["ETHBTC", "LTCBTC", "BNBBTC", "NEOBTC", "QTUMETH", "EOSETH", "SNTETH", "BNTETH", "BCCBTC", "GASBTC",
            "BNBETH", "BTCUSDT", "ETHUSDT", "HSRBTC", "OAXETH", "DNTETH", "MCOETH", "ICNETH", "MCOBTC", "WTCBTC",
@@ -289,18 +290,32 @@ symbols = ["ETHBTC", "LTCBTC", "BNBBTC", "NEOBTC", "QTUMETH", "EOSETH", "SNTETH"
            "1000SATSUSDC"]
 
 
-def get_async_tickers(symbols: list[str]):
-    return (grequests.get(f"https://api.binance.com/api/v3/ticker/price?symbol={symbol}") for symbol in symbols);
+def get_ticker(symbol: str) -> dict:
+    return requests.get(f"https://api.binance.com/api/v3/ticker/price?symbol={symbol}")
+
+
+from asyncio import Future
+
+
+def get_all_tickers(symbols: list[str]) -> list[str]:
+    ticker_futures: list[Future] = []
+    tickers: list[str] = []
+    with ThreadPoolExecutor(max_workers=128) as tpe:
+        for symbol in symbols:
+            ticker_futures.append(tpe.submit(get_ticker, symbol))
+        for ticker_future in ticker_futures:
+            tickers.append(str(ticker_future.result().content))
+    return tickers
 
 
 start = time.perf_counter()
-for response in grequests.map(get_async_tickers(symbols[:1024])):
-    print(response.content)
+for ticker in get_all_tickers(symbols[:1024]):
+    print(ticker)
 elapsed_time = time.perf_counter() - start
 print(f"elapsed time: {elapsed_time:3.2f}")
 """
-elapsed time: 4.72
-elapsed time: 5.86
-elapsed time: 4.46
-elapsed time: 4.94
+elapsed time: 3.62
+elapsed time: 3.66
+elapsed time: 3.65
+elapsed time: 3.68
 """
