@@ -65,13 +65,14 @@ class CountryHandler(xml.sax.ContentHandler):
 
 
 parser = xml.sax.make_parser()
-handler = CountryHandler(lambda ctry: ctry.continent == "Europe", lambda ctry: ctry.name)
+handler = CountryHandler(lambda ctry: ctry.continent == "Antarctica", lambda ctry: ctry.name)
 parser.setContentHandler(handler)
 parser.parse("resources/countries.xml")
 for country in handler.countries:
     print(country)
+
 print("\nFinding populated countries....\n")
-handler.predicate = lambda ctry: ctry.nufus > 100000000
+handler.predicate = lambda ctry: ctry.nufus > 100_000_000 and ctry.continent == "Africa"
 handler.sorter = lambda ctry: ctry.nufus
 parser.parse("resources/countries.xml")
 for country in handler.countries:
