@@ -9,8 +9,8 @@ class Z:
 
 class A(Z):
     def __init__(self, x=42):
-        print(f"A's constructor: {x}")
         super().__init__(x)
+        print(f"A's constructor: {x}")
 
     def get_x_a(self):
         return self.x
@@ -18,8 +18,8 @@ class A(Z):
 
 class B(Z):
     def __init__(self, x=108):
-        print(f"B's constructor: {x}")
         super().__init__(x)
+        print(f"B's constructor: {x}")
 
     def get_x_b(self):
         return self.x
