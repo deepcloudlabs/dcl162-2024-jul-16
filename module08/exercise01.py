@@ -17,5 +17,7 @@ installation: https://courseware.deepcloudlabs.com/software/stage2022a-python.pr
 
    2024-07-18T07:21:13.966497Z 0 [System] [MY-010931] [Server] C:\DEVEL\stage\opt\mysql-8.2.0\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
 
-2. mysql-connector-python
+2.  c:\DEVEL\stage\var\scripts\mysql-cli.bat
+
+3. mysql-connector-python
 """
