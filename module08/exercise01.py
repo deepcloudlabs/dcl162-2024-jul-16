@@ -20,4 +20,7 @@ installation: https://courseware.deepcloudlabs.com/software/stage2022a-python.pr
 2.  c:\DEVEL\stage\var\scripts\mysql-cli.bat
 
 3. mysql-connector-python
+
+ACID Database
+TX Model: Flat Model -> begin/commit/rollback
 """
