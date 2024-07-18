@@ -5,36 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7220354a-a9b3-4c38-8720-5e0b4507d938" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module10/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/.idea/module10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/drag-and-drop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/toastr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/js/hr-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/js/hr-util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/js/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/resources/translation-en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/frontend/resources/translation-tr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module10/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/.idea/hr-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/drag-and-drop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/css/toastr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/js/hr-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/js/hr-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/js/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/resources/translation-en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/frontend/resources/translation-tr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/hr-api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/rest_utility/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hr-app/rest_utility/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/hr-api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/rest_utility/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/rest_utility/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module10/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721293661781</updated>
-      <workItem from="1721293664039" duration="5360000" />
+      <workItem from="1721293664039" duration="7012000" />
     </task>
     <servers />
   </component>
