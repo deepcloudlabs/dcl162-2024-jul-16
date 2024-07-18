@@ -6,7 +6,8 @@ mysql_connection = connector.connect(
     password='Secret_123',
     database='banking'
 )
+
 cursor = mysql_connection.cursor()
-cursor.execute("show tables")
-for table_name, *rest in cursor:
-    print(table_name)
+accounts = [
+    ("tr1",10_000,'ACTIVE')
+]
