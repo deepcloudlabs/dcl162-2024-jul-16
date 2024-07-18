@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7220354a-a9b3-4c38-8720-5e0b4507d938" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module10/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/module11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/exercise01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/kafka-consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/kafka-producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/rabbitmq-consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/rabbitmq-producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hr-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hr-app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module11/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
