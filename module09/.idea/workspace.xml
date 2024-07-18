@@ -5,11 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7220354a-a9b3-4c38-8720-5e0b4507d938" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/module10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/drag-and-drop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/css/toastr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/js/hr-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/js/hr-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/js/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/resources/translation-en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/frontend/resources/translation-tr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +228,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721293661781</updated>
-      <workItem from="1721293664039" duration="3814000" />
+      <workItem from="1721293664039" duration="5360000" />
     </task>
     <servers />
   </component>
