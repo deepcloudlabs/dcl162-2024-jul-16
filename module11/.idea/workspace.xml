@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f169f3-ff99-49f2-b620-2d88ba148258" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module10/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/module11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hr-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hr-app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module09/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +42,8 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.kafka-consumer.executor": "Run",
     "Python.kafka-producer.executor": "Run",
+    "Python.rabbitmq-consumer.executor": "Run",
+    "Python.rabbitmq-producer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -190,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721307687471</updated>
-      <workItem from="1721307689492" duration="2947000" />
+      <workItem from="1721307689492" duration="5178000" />
     </task>
     <servers />
   </component>
@@ -201,6 +191,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/module11$rabbitmq_consumer.coverage" NAME="rabbitmq-consumer Coverage Results" MODIFIED="1721314760148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/module11$rabbitmq_producer.coverage" NAME="rabbitmq-producer Coverage Results" MODIFIED="1721314750224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/module11$kafka_producer.coverage" NAME="kafka-producer Coverage Results" MODIFIED="1721308680102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/module11$kafka_consumer.coverage" NAME="kafka-consumer Coverage Results" MODIFIED="1721308731006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
