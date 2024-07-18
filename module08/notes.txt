@@ -71,3 +71,12 @@ mysql> desc countrylanguage;
 | Percentage  | float(4,1)    | NO   |     | 0.0     |       |
 +-------------+---------------+------+-----+---------+-------+
 4 rows in set (0.00 sec)
+
+1. Consistency
+2. TX: begin/commit/rollback
+3. isolation level
+   ANSI SQL -> 4 isolation levels
+     i. read uncommitted
+    ii. read committed
+   iii. repeatable read
+    iv. serializable
