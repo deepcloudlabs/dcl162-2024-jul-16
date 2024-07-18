@@ -4,23 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7220354a-a9b3-4c38-8720-5e0b4507d938" name="Changes" comment="">
+    <list default="true" id="40f169f3-ff99-49f2-b620-2d88ba148258" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../module10/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/module11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/exercise01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/kafka-consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/kafka-producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/rabbitmq-consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/rabbitmq-producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module11/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/module11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hr-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hr-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module09/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="2jPfW9XdYAInrOccc9Xesc2tVHX" />
+  <component name="ProjectId" id="2jQ7wpAlwPrT7bTzviUEzKwWvsi" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -50,15 +50,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.exercise02.executor": "Run",
-    "Python.exercise03.executor": "Run",
-    "Python.exercise04.executor": "Run",
-    "Python.exercise05.executor": "Run",
-    "Python.exercise06.executor": "Run",
-    "Python.exercise07.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.kafka-consumer.executor": "Run",
+    "Python.kafka-producer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/var/workspace/github/dcl162-2024-jul-16/module09",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/var/workspace/github/dcl162-2024-jul-16/module11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,12 +69,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\var\workspace\github\dcl162-2024-jul-16\module09" />
+      <recent name="C:\var\workspace\github\dcl162-2024-jul-16\module11" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.exercise07">
-    <configuration name="exercise03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module09" />
+  <component name="RunManager" selected="Python.rabbitmq-consumer">
+    <configuration name="kafka-consumer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="module11" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +87,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kafka-consumer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,8 +96,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercise04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module09" />
+    <configuration name="kafka-producer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="module11" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +110,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kafka-producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,8 +119,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercise05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module09" />
+    <configuration name="rabbitmq-consumer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="module11" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +133,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmq-consumer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,8 +142,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercise06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module09" />
+    <configuration name="rabbitmq-producer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="module11" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,30 +156,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise06.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="exercise07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module09" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise07.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmq-producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,11 +167,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exercise07" />
-        <item itemvalue="Python.exercise06" />
-        <item itemvalue="Python.exercise05" />
-        <item itemvalue="Python.exercise04" />
-        <item itemvalue="Python.exercise03" />
+        <item itemvalue="Python.rabbitmq-consumer" />
+        <item itemvalue="Python.rabbitmq-producer" />
+        <item itemvalue="Python.kafka-consumer" />
+        <item itemvalue="Python.kafka-producer" />
       </list>
     </recent_temporary>
   </component>
@@ -209,24 +185,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7220354a-a9b3-4c38-8720-5e0b4507d938" name="Changes" comment="" />
-      <created>1721293661781</created>
+      <changelist id="40f169f3-ff99-49f2-b620-2d88ba148258" name="Changes" comment="" />
+      <created>1721307687471</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1721293661781</updated>
-      <workItem from="1721293664039" duration="8809000" />
+      <updated>1721307687471</updated>
+      <workItem from="1721307689492" duration="2947000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/module09$exercise06.coverage" NAME="exercise06 Coverage Results" MODIFIED="1721301170463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/module09$exercise03.coverage" NAME="exercise03 Coverage Results" MODIFIED="1721299907456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/module09$exercise07.coverage" NAME="exercise07 Coverage Results" MODIFIED="1721301302601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/module09$exercise05.coverage" NAME="exercise05 Coverage Results" MODIFIED="1721300884230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/module09$exercise02.coverage" NAME="exercise02 Coverage Results" MODIFIED="1721299488197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/module09$exercise04.coverage" NAME="exercise04 Coverage Results" MODIFIED="1721300439421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/module11$kafka_producer.coverage" NAME="kafka-producer Coverage Results" MODIFIED="1721308680102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/module11$kafka_consumer.coverage" NAME="kafka-consumer Coverage Results" MODIFIED="1721308731006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
