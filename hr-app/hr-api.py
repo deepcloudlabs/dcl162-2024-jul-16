@@ -17,7 +17,7 @@ employees_collection = hrdb['employees']
 hr_rest_api = Flask(__name__)
 hr_rest_api.config['DEBUG'] = True
 cors = CORS(hr_rest_api)
-socketio = SocketIO(hr_rest_api, cors=cors)
+socketio = SocketIO(hr_rest_api, cors_allowed_origins="*")
 
 # endregion
 
